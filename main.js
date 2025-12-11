@@ -1188,7 +1188,7 @@ AudioLoader.load('./Media/Sadlands_Demo.ogg', (buffer) => {
 
 window.addEventListener("click", () => {
     if (audioReady && !worldMusic.isPlaying) {
-        //worldMusic.play();
+        worldMusic.play();
         console.log("Audio started");
     }
 });
